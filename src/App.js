@@ -1,15 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; 
 
 function App() {
   return (
+    
     <div className="App">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#top">
+            Test
+          </a>
+        </div>
+      </nav>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> oinasoisncoinacsad.
-        </p>
-        
       </header>
     </div>
   );
