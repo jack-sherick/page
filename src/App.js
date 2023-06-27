@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom/client';
 import './App.css'; 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           </a>
         </div>
       </nav>
+      
       <header className="App-header">
       </header>
     </div>
